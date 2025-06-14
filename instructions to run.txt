@@ -1,0 +1,12 @@
+Instructions to run this app in your local PC:
+
+1. Save the AI_translator_app.py in your PC.
+2. To obtain the OpenAPI API key, go to https://platform.openai.com/account/api-keys and create a new key.
+3. Copy paste the new API key in the line "llms=..." within the saved .py file.
+4. Run the below command in your terminal:
+   streamlit run "Folder where your file resides/AI_translator_app.py"
+5. If you don't have langchain installed, run these below commands in your terminal one by one:
+   pip install langchain
+   pip install langchain_community
+   pip install openai
+6. Once run successfully, a new window with this app will pop up in your web browser. Have fun!
