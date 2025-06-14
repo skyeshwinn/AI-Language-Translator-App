@@ -6,9 +6,9 @@
 
 
 import streamlit as st
-from langchain.llms import OpenAI
+from langchain_community.llms import OpenAI
 
-llms = OpenAI(openai_api_key="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")
+llms = OpenAI(openai_api_key="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")
 
 st.title("AI Translator")
 
